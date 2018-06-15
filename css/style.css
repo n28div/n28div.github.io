@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+
+* {
+  margin: 0;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh;
+  
+  min-height: 10vh;
+  
+  background-color: #e0e0e0;
+  color: #212121;
+}
+
+.footer-elem {
+  padding: 0.5vh;
+}
+
+a {
+  text-decoration: none;
+  color: #515151
+}
+
+.row {
+  flex: 1;
+  
+  display: flex;
+  align-items: baseline;
+  padding: 3vh;
+}
+
+.btn-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  justify-content: space-evenly;
+}
+
+.btn {
+  text-decoration: none;
+  color: black;
+  margin: 1vw;
+  padding: 0.8vw;
+  border: 1px solid #212121;
+  border-radius: 0.2vw;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.2vw;
+}
+
+.hidden {
+  display:none;
+}
+
+h1  {
+  font-size: 10vw;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.logo svg {
+  width: 3vw;
+  heigth: 3vh;
+}
