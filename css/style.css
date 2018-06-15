@@ -20,7 +20,7 @@ footer {
   align-items: center;
   padding: 3vh;
   
-  min-height: 10vh;
+  min-height: 8vh;
   
   background-color: #e0e0e0;
   color: #212121;
@@ -74,7 +74,7 @@ a {
 }
 
 h1  {
-  font-size: 10vw;
+  font-size: 5vw;
 }
 
 .blink {
@@ -88,6 +88,6 @@ h1  {
 }
 
 .logo svg {
-  width: 3vw;
-  heigth: 3vh;
+  width: 4vw;
+  height: 4vh;
 }
